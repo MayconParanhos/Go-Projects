@@ -31,7 +31,7 @@ func main() {
 
 	for i := 0; i < len(lines); i++ {
 		fmt.Printf("\n  %s \n", lines[i])
-		time.Sleep(2 * time.Second)
+		time.Sleep(time.Second * 2)
 		if i == (len(lines) - 1) {
 			i = -1
 		}
